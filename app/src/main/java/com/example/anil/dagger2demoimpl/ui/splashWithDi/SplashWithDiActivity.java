@@ -1,10 +1,12 @@
-package com.example.anil.dagger2demoimpl.splashWithDi;
+package com.example.anil.dagger2demoimpl.ui.splashWithDi;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.anil.dagger2demoimpl.GlobalApplicationClass;
 import com.example.anil.dagger2demoimpl.R;
 import com.example.anil.dagger2demoimpl.base.BaseActivity;
+import com.example.anil.dagger2demoimpl.ui.signUpWithoutDi.SignUpWithoutDiActivity;
 
 import javax.inject.Inject;
 
@@ -23,6 +25,6 @@ public class SplashWithDiActivity extends BaseActivity implements SplashWithDiVi
 
     @Override
     public void moveToNext() {
-
+        startActivity(new Intent(this, SignUpWithoutDiActivity.class));
     }
 }

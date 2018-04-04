@@ -2,11 +2,11 @@ package com.example.anil.dagger2demoimpl.di;
 
 import android.content.Context;
 
-import com.example.anil.dagger2demoimpl.di.network.RetrofitModule;
 import com.example.anil.dagger2demoimpl.di.splash.SplashModule;
-import com.example.anil.dagger2demoimpl.splashWithDi.SplashWithDiActivity;
-import com.example.anil.dagger2demoimpl.splashWithDi.SplashWithDiInteractor;
-import com.example.anil.dagger2demoimpl.splashWithDi.SplashWithDiPresenter;
+import com.example.anil.dagger2demoimpl.ui.splashWithDi.SplashWithDiActivity;
+import com.example.anil.dagger2demoimpl.ui.splashWithDi.SplashWithDiInteractor;
+import com.example.anil.dagger2demoimpl.ui.splashWithDi.SplashWithDiPresenter;
+import com.example.anil.dagger2demoimpl.ui.splashWithDi.SplashWithDiView;
 
 import dagger.Component;
 
@@ -23,4 +23,5 @@ public interface AppComponent {
     SplashWithDiInteractor getSplashWithDiInteractor();
 
     SplashWithDiActivity getSplash(SplashWithDiActivity activity);
+
 }

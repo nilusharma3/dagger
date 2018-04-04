@@ -1,4 +1,4 @@
-package com.example.anil.dagger2demoimpl.splashWithDi;
+package com.example.anil.dagger2demoimpl.ui.splashWithDi;
 
 import android.util.Log;
 
@@ -16,6 +16,8 @@ public class SplashWithDiPresenterImpl implements SplashWithDiPresenter {
     @Inject
     SplashWithDiInteractorImpl interactor;
 
+    SplashWithDiView view;
+
     @Inject
     public SplashWithDiPresenterImpl(final SplashWithDiInteractorImpl interactor) {
         this.interactor = interactor;
@@ -28,7 +30,7 @@ public class SplashWithDiPresenterImpl implements SplashWithDiPresenter {
         interactor.serverHitForAppVersionData(new ApiCallBack() {
             @Override
             public void onSuccess(final Object responseObject) {
-
+                //view.moveToNext();
             }
 
             @Override

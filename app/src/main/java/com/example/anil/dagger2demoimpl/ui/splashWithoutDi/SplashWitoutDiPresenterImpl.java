@@ -1,4 +1,4 @@
-package com.example.anil.dagger2demoimpl.splashWithoutDi;
+package com.example.anil.dagger2demoimpl.ui.splashWithoutDi;
 
 import android.util.Log;
 

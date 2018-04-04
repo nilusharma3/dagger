@@ -1,6 +1,4 @@
-package com.example.anil.dagger2demoimpl.splashWithDi;
-
-import android.util.Log;
+package com.example.anil.dagger2demoimpl.ui.splashWithDi;
 
 
 import com.example.anil.dagger2demoimpl.retrofit.APIError;

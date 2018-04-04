@@ -1,15 +1,13 @@
-package com.example.anil.dagger2demoimpl.splashWithoutDi;
+package com.example.anil.dagger2demoimpl.ui.splashWithoutDi;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.widget.BaseAdapter;
 import android.widget.Toast;
 
 import com.example.anil.dagger2demoimpl.R;
 import com.example.anil.dagger2demoimpl.base.BaseActivity;
 import com.example.anil.dagger2demoimpl.retrofit.RestClient;
-import com.example.anil.dagger2demoimpl.splashWithDi.SplashWithDiActivity;
+import com.example.anil.dagger2demoimpl.ui.splashWithDi.SplashWithDiActivity;
 
 
 public class SplashWithoutDiActivity extends BaseActivity implements SplashWithoutDiView {

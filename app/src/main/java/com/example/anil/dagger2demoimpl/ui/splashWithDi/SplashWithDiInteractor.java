@@ -1,4 +1,4 @@
-package com.example.anil.dagger2demoimpl.splashWithDi;
+package com.example.anil.dagger2demoimpl.ui.splashWithDi;
 
 
 import com.example.anil.dagger2demoimpl.retrofit.ApiCallBack;
