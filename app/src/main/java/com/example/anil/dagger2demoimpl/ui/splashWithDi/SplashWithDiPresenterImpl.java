@@ -8,7 +8,7 @@ import com.example.anil.dagger2demoimpl.retrofit.ApiCallBack;
 import javax.inject.Inject;
 
 /**
- * Created by anil on 3/19/18.
+ * Created by anil
  */
 
 public class SplashWithDiPresenterImpl implements SplashWithDiPresenter {
